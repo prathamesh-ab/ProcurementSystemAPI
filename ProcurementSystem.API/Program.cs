@@ -1,6 +1,8 @@
 
 using ProcurementSystem.API.Data;
 using ProcurementSystem.API.Interfaces;
+using ProcurementSystem.API.Repositories;
+using ProcurementSystem.API.Services;
 using System.Data;
 
 namespace ProcurementSystem.API
@@ -17,6 +19,8 @@ namespace ProcurementSystem.API
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
             builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
+            builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
+            builder.Services.AddScoped<ISupplierService, SupplierService>();
 
             var app = builder.Build();
 
