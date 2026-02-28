@@ -15,11 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="Middleware\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Data\" />
     <Folder Include="Services\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

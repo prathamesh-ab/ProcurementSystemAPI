@@ -1,4 +1,8 @@
 
+using ProcurementSystem.API.Data;
+using ProcurementSystem.API.Interfaces;
+using System.Data;
+
 namespace ProcurementSystem.API
 {
     public class Program
@@ -12,6 +16,7 @@ namespace ProcurementSystem.API
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+            builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
 
             var app = builder.Build();
 
