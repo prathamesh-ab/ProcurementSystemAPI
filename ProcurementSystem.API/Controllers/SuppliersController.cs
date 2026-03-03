@@ -27,7 +27,7 @@ namespace ProcurementSystem.API.Controllers
             });
         }
 
-        [HttpGet("{id")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var supplier = await _service.GetSupplierByIdAsync(id);
@@ -37,6 +37,7 @@ namespace ProcurementSystem.API.Controllers
                 Data = supplier
             });
         }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateSupplierDTO dto)
         {

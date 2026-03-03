@@ -1,0 +1,64 @@
+2026-03-03 17:29:20.908 +05:30 [INF] Starting Procurement API
+2026-03-03 17:29:24.026 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 100.3010 ms
+2026-03-03 17:29:24.077 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 4.0547 ms
+2026-03-03 17:29:24.147 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 75.3269 ms
+2026-03-03 17:29:24.147 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 75.3266 ms
+2026-03-03 17:29:24.147 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 75.3244 ms
+2026-03-03 17:29:24.147 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 75.3182 ms
+2026-03-03 17:29:24.244 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.8386 ms
+2026-03-03 17:30:39.659 +05:30 [INF] Starting Procurement API
+2026-03-03 17:30:40.975 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 45.6218 ms
+2026-03-03 17:30:41.037 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 3.7758 ms
+2026-03-03 17:30:41.091 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 57.6561 ms
+2026-03-03 17:30:41.091 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 57.6517 ms
+2026-03-03 17:30:41.091 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 57.4855 ms
+2026-03-03 17:30:41.091 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 57.8083 ms
+2026-03-03 17:30:41.299 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.9840 ms
+2026-03-03 17:31:20.444 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 0.1909 ms
+2026-03-03 17:31:20.482 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 0.1548 ms
+2026-03-03 17:31:20.484 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 0.2583 ms
+2026-03-03 17:31:20.485 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 0.1492 ms
+2026-03-03 17:31:20.484 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 0.3060 ms
+2026-03-03 17:31:20.484 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 0.2815 ms
+2026-03-03 17:31:20.627 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.7333 ms
+2026-03-03 17:32:36.533 +05:30 [INF] Starting Procurement API
+2026-03-03 17:32:37.797 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 49.7203 ms
+2026-03-03 17:32:37.863 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 3.8378 ms
+2026-03-03 17:32:37.939 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 79.7425 ms
+2026-03-03 17:32:37.939 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 79.7381 ms
+2026-03-03 17:32:37.939 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 79.7350 ms
+2026-03-03 17:32:37.939 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 79.8606 ms
+2026-03-03 17:32:38.024 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.3094 ms
+2026-03-03 17:33:11.130 +05:30 [INF] Starting Procurement API
+2026-03-03 17:33:12.364 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 44.5285 ms
+2026-03-03 17:33:12.402 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 3.6445 ms
+2026-03-03 17:33:12.422 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 23.7146 ms
+2026-03-03 17:33:12.422 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 23.7154 ms
+2026-03-03 17:33:12.422 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 23.7144 ms
+2026-03-03 17:33:12.422 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 23.7072 ms
+2026-03-03 17:33:12.509 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.9839 ms
+2026-03-03 17:36:03.216 +05:30 [INF] Fetching all Suppliers from the database.
+2026-03-03 17:58:50.728 +05:30 [INF] HTTP GET /api/Suppliers responded 200 in 1417586.2069 ms
+2026-03-03 18:16:09.931 +05:30 [INF] Creating a new Supplier in the database.
+2026-03-03 18:25:56.565 +05:30 [INF] HTTP POST /api/Suppliers responded 201 in 1100820.3374 ms
+2026-03-03 18:26:18.705 +05:30 [INF] Fetching Supplier with ID 4 from the database.
+2026-03-03 18:26:18.729 +05:30 [INF] HTTP GET /api/Suppliers/4 responded 200 in 43.4855 ms
+2026-03-03 18:26:18.791 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.2325 ms
+2026-03-03 18:26:35.471 +05:30 [INF] Starting Procurement API
+2026-03-03 18:26:37.064 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 49.9771 ms
+2026-03-03 18:26:37.163 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 2.9646 ms
+2026-03-03 18:26:37.213 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 87.5410 ms
+2026-03-03 18:26:37.213 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 87.5415 ms
+2026-03-03 18:26:37.213 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 87.5429 ms
+2026-03-03 18:26:37.213 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 87.5427 ms
+2026-03-03 18:26:37.298 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.0874 ms
+2026-03-03 18:29:06.057 +05:30 [INF] Fetching Supplier with ID 4 from the database.
+2026-03-03 18:32:47.400 +05:30 [INF] HTTP GET /api/Suppliers/4 responded 200 in 317327.0354 ms
+2026-03-03 18:50:00.154 +05:30 [INF] Updating supplier with id: 4
+2026-03-03 18:54:44.233 +05:30 [INF] Supplier with id 4 updated successfully.
+2026-03-03 18:55:06.805 +05:30 [INF] HTTP PUT /api/Suppliers/4 responded 200 in 469954.6200 ms
+2026-03-03 18:59:56.223 +05:30 [INF] Deleting supplier with id: 4
+2026-03-03 19:02:32.315 +05:30 [INF] Supplier with id 4 deleted successfully.
+2026-03-03 19:02:48.639 +05:30 [INF] HTTP DELETE /api/Suppliers/4 responded 200 in 246891.9825 ms
+2026-03-03 19:14:31.351 +05:30 [INF] Fetching suppliers from country: UK
+2026-03-03 19:16:38.874 +05:30 [INF] HTTP GET /api/Suppliers/country/UK responded 200 in 171091.9429 ms
