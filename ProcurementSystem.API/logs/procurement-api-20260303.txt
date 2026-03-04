@@ -62,3 +62,49 @@
 2026-03-03 19:02:48.639 +05:30 [INF] HTTP DELETE /api/Suppliers/4 responded 200 in 246891.9825 ms
 2026-03-03 19:14:31.351 +05:30 [INF] Fetching suppliers from country: UK
 2026-03-03 19:16:38.874 +05:30 [INF] HTTP GET /api/Suppliers/country/UK responded 200 in 171091.9429 ms
+2026-03-03 19:30:01.841 +05:30 [INF] Starting Procurement API
+2026-03-03 19:30:03.849 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 97.4026 ms
+2026-03-03 19:30:03.945 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 8.0860 ms
+2026-03-03 19:30:04.018 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 80.4191 ms
+2026-03-03 19:30:04.018 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 80.4146 ms
+2026-03-03 19:30:04.018 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 80.4148 ms
+2026-03-03 19:30:04.038 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 100.2207 ms
+2026-03-03 19:30:04.150 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.9551 ms
+2026-03-03 19:31:07.305 +05:30 [INF] Fetching top 3 rated suppliers.
+2026-03-03 19:36:10.219 +05:30 [INF] HTTP GET /api/Suppliers/top-rated responded 200 in 323645.1374 ms
+2026-03-03 19:38:28.782 +05:30 [INF] Fetching Supplier with ID 222 from the database.
+2026-03-03 19:38:39.313 +05:30 [ERR] HTTP GET /api/Suppliers/222 responded 500 in 12638.0509 ms
+ProcurementSystem.API.Exceptions.CustomExceptions+NotFoundException: Employee with 222 not found
+   at ProcurementSystem.API.Services.SupplierService.GetSupplierByIdAsync(Int32 id) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Services\SupplierService.cs:line 43
+   at ProcurementSystem.API.Controllers.SuppliersController.GetById(Int32 id) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Controllers\SuppliersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-03-03 19:38:53.930 +05:30 [ERR] Unhandled exception. Path: /api/Suppliers/222
+ProcurementSystem.API.Exceptions.CustomExceptions+NotFoundException: Employee with 222 not found
+   at ProcurementSystem.API.Services.SupplierService.GetSupplierByIdAsync(Int32 id) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Services\SupplierService.cs:line 43
+   at ProcurementSystem.API.Controllers.SuppliersController.GetById(Int32 id) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Controllers\SuppliersController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ProcurementSystem.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Middleware\GlobalExceptionMiddleware.cs:line 27

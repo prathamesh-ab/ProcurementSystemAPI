@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProcurementSystem.API.DTOs;
 using ProcurementSystem.API.Interfaces;
@@ -7,6 +8,7 @@ namespace ProcurementSystem.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize] // Require authentication for all endpoints
     public class SuppliersController : ControllerBase
     {
         private readonly ISupplierService _service;
@@ -17,6 +19,7 @@ namespace ProcurementSystem.API.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous] // Allow public access to view suppliers
         public async Task<IActionResult> GetAll()
         {
             var suppliers = await _service.GetAllSuppliersAsync();
@@ -28,6 +31,7 @@ namespace ProcurementSystem.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetById(int id)
         {
             var supplier = await _service.GetSupplierByIdAsync(id);
@@ -39,6 +43,7 @@ namespace ProcurementSystem.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin,Manager")] // Only Admin and Manager can create
         public async Task<IActionResult> Create([FromBody] CreateSupplierDTO dto)
         {
             if (!ModelState.IsValid)
@@ -69,6 +74,7 @@ namespace ProcurementSystem.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Manager")]
         public async Task<IActionResult> Update(int id, [FromBody] UpdateSupplierDTO dto)
         {
             if (!ModelState.IsValid)
@@ -96,6 +102,7 @@ namespace ProcurementSystem.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")] // Only Admin can delete
         public async Task<IActionResult> Delete(int id)
         {
             await _service.DeleteSupplierAsync(id);

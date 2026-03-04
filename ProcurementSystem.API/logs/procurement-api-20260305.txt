@@ -1,0 +1,136 @@
+2026-03-05 00:54:42.976 +05:30 [INF] Starting Procurement API
+2026-03-05 00:54:47.919 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 62.5097 ms
+2026-03-05 00:54:48.008 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 6.6847 ms
+2026-03-05 00:54:48.070 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 68.3184 ms
+2026-03-05 00:54:48.070 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 68.2969 ms
+2026-03-05 00:54:48.070 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 68.4125 ms
+2026-03-05 00:54:48.075 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 72.7113 ms
+2026-03-05 00:54:48.456 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 19.4690 ms
+2026-03-05 00:56:23.036 +05:30 [INF] Registration attempt for email: john@test.com
+2026-03-05 00:56:24.271 +05:30 [INF] User registered successfully: john@test.com
+2026-03-05 00:56:24.300 +05:30 [INF] HTTP POST /api/Auth/register responded 200 in 3565.8477 ms
+2026-03-05 00:59:18.345 +05:30 [INF] Starting Procurement API
+2026-03-05 00:59:20.392 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 85.2506 ms
+2026-03-05 00:59:20.476 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 28.1174 ms
+2026-03-05 00:59:20.476 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 28.1238 ms
+2026-03-05 00:59:20.476 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 28.4211 ms
+2026-03-05 00:59:20.503 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 11.3528 ms
+2026-03-05 00:59:20.503 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 0.8933 ms
+2026-03-05 00:59:20.827 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 23.8737 ms
+2026-03-05 00:59:52.419 +05:30 [INF] Login attempt for email: john@test.com
+2026-03-05 00:59:53.430 +05:30 [INF] Login successful for user: john@test.com
+2026-03-05 00:59:53.459 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 1259.5451 ms
+2026-03-05 01:12:34.623 +05:30 [INF] Starting Procurement API
+2026-03-05 01:12:37.856 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 101.2266 ms
+2026-03-05 01:12:37.989 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 122.9841 ms
+2026-03-05 01:12:37.992 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 126.4630 ms
+2026-03-05 01:12:38.019 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 153.1201 ms
+2026-03-05 01:12:38.228 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.9939 ms
+2026-03-05 01:14:22.139 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 223.4216 ms
+2026-03-05 01:14:34.725 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 8.1224 ms
+2026-03-05 01:14:38.480 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 5.5753 ms
+2026-03-05 01:16:12.829 +05:30 [INF] Registration attempt for email: john@test.com
+2026-03-05 01:16:13.746 +05:30 [INF] User registered successfully: john@test.com
+2026-03-05 01:16:13.778 +05:30 [INF] HTTP POST /api/Auth/register responded 200 in 1083.6038 ms
+2026-03-05 01:17:09.761 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 5.8417 ms
+2026-03-05 01:17:12.428 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 1.4143 ms
+2026-03-05 01:17:13.978 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 11.3965 ms
+2026-03-05 01:17:14.370 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.7594 ms
+2026-03-05 01:17:14.396 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.9797 ms
+2026-03-05 01:17:42.538 +05:30 [INF] Starting Procurement API
+2026-03-05 01:17:45.767 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 121.4989 ms
+2026-03-05 01:17:45.992 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.0622 ms
+2026-03-05 01:18:38.388 +05:30 [INF] Registration attempt for email: john@test.com
+2026-03-05 01:18:39.331 +05:30 [INF] User registered successfully: john@test.com
+2026-03-05 01:18:39.360 +05:30 [INF] HTTP POST /api/Auth/register responded 200 in 1232.2147 ms
+2026-03-05 01:19:53.306 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 98.5425 ms
+2026-03-05 01:27:20.245 +05:30 [INF] Starting Procurement API
+2026-03-05 01:27:24.250 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 128.4652 ms
+2026-03-05 01:27:24.418 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.5279 ms
+2026-03-05 01:28:01.536 +05:30 [ERR] HTTP POST /api/Auth/create-admin responded 500 in 29379.8843 ms
+System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__Users__A9D105344B20A0CE'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (admin@procurement.com).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at ProcurementSystem.API.Controllers.AuthController.CreateAdmin(RegisterDTO dto) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Controllers\AuthController.cs:line 99
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:b4a22c5c-cc14-40c0-8601-be44954fb6e4
+Error Number:2627,State:1,Class:14
+2026-03-05 01:28:01.710 +05:30 [ERR] Unhandled exception. Path: /api/Auth/create-admin
+System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__Users__A9D105344B20A0CE'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (admin@procurement.com).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at ProcurementSystem.API.Controllers.AuthController.CreateAdmin(RegisterDTO dto) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Controllers\AuthController.cs:line 99
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ProcurementSystem.API.Middleware.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Code\01_DotNet\02_POC\ProcurementSystem\ProcurementSystem.API\Middleware\GlobalExceptionMiddleware.cs:line 27
+ClientConnectionId:b4a22c5c-cc14-40c0-8601-be44954fb6e4
+Error Number:2627,State:1,Class:14
+2026-03-05 01:30:49.310 +05:30 [INF] Starting Procurement API
+2026-03-05 01:30:51.904 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 116.0263 ms
+2026-03-05 01:30:52.082 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.4088 ms
+2026-03-05 01:32:03.417 +05:30 [INF] Login attempt for email: admin@procurement.com
+2026-03-05 01:32:04.336 +05:30 [WRN] Login failed: Invalid password - admin@procurement.com
+2026-03-05 01:32:15.999 +05:30 [INF] Starting Procurement API
+2026-03-05 01:32:18.722 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 109.1085 ms
+2026-03-05 01:32:18.912 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.0902 ms
+2026-03-05 01:32:59.686 +05:30 [INF] Registration attempt for email: john@test.com
+2026-03-05 01:33:00.583 +05:30 [INF] User registered successfully: john@test.com
+2026-03-05 01:33:00.614 +05:30 [INF] HTTP POST /api/Auth/register responded 200 in 1130.2207 ms
+2026-03-05 01:34:07.483 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 93.7534 ms
+2026-03-05 01:34:17.454 +05:30 [INF] HTTP POST /api/Suppliers responded 403 in 9.5861 ms
+2026-03-05 01:52:04.884 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 9.7209 ms
+2026-03-05 01:52:05.048 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.1514 ms
+2026-03-05 01:53:50.070 +05:30 [INF] Login attempt for email: john@test.com
+2026-03-05 01:53:50.458 +05:30 [INF] Login successful for user: john@test.com
+2026-03-05 01:53:50.464 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 422.5104 ms
+2026-03-05 01:55:42.261 +05:30 [INF] Creating a new Supplier in the database.
+2026-03-05 01:55:47.139 +05:30 [INF] HTTP POST /api/Suppliers responded 201 in 45817.4523 ms
